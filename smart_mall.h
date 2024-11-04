@@ -69,7 +69,7 @@ void bluetooth_init(void);
 void sensor_init(void);
 uint8_t verify_access_code(const char* code);
 void update_tenant_rent(uint16_t tenant_id, float amount);
-void generate_temp_code(uint16_t tenant_id, uint32_t validity_period);
+TempAccess* generate_temp_code(uint16_t tenant_id, uint32_t validity_period);
 void escalator_control(uint8_t enable);
 void process_entrance_sensor(uint8_t entrance_num);
 void process_exit_sensor(void);
