@@ -20,7 +20,8 @@ build/default/debug/main.o.d build/default/debug/main.o: main.c \
  /home/aheebwa/Documents/AVR\ Utils/toolchain/avr/include/util/delay_basic.h \
  /home/aheebwa/Documents/AVR\ Utils/toolchain/avr/include/math.h \
  /home/aheebwa/Documents/AVR\ Utils/toolchain/avr/include/time.h \
- /home/aheebwa/Documents/AVR\ Utils/toolchain/avr/include/stdlib.h uart.h
+ /home/aheebwa/Documents/AVR\ Utils/toolchain/avr/include/stdlib.h uart.h \
+ lcd.h
 
 smart_mall.h:
 
@@ -67,3 +68,5 @@ smart_mall.h:
 /home/aheebwa/Documents/AVR\ Utils/toolchain/avr/include/stdlib.h:
 
 uart.h:
+
+lcd.h:

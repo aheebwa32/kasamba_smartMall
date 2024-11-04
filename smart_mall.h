@@ -77,12 +77,12 @@ void handle_bluetooth_command(char command);
 void update_washroom_status(void);
 
 // Pin Configurations
-#define MALL_ENTRANCE_1 PA3
-#define MALL_ENTRANCE_2 PA4
-#define MALL_EXIT PA2
+#define MALL_ENTRANCE_1 PH2
+#define MALL_ENTRANCE_2 PH3
+#define MALL_EXIT PH4
 
-#define ESCALATOR_ENTRY PC0
-#define ESCALATOR_EXIT PC1
+#define ESCALATOR_ENTRY PD0
+#define ESCALATOR_EXIT PD1
 //
 #define ESCALATOR_PORT PORTA
 #define ESCALATOR_ENABLE PA0

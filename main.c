@@ -14,14 +14,14 @@ uint16_t people_upstairs = 0;
 uint8_t entrance_1_count = 0;
 uint8_t entrance_2_count = 0;
 uint8_t exit_count = 0;
-int last_tenant_id = 0;
+int last_tenant_id = 1;
 float base_rent = 1000.0; // Example base rent
 
 void system_init(void) {
     cli(); // Disable interrupts
     uart_init();
     // bluetooth_init();
-    // sensor_init();
+    sensor_init();
 
     DDRF = 0X01; //provide voltage for sensors of entry and exit
     DDRH = 0xE0; // some ports are input while others are output
@@ -133,8 +133,11 @@ int add_tenant() {
     floor->tenant_count ++;
     last_tenant_id++;
     lcd_print("Tenant added");
+    _delay_ms(750);
+    lcd_clear();
+    lcd_print("Kasamba S.M.");
 
-    return 0; // No space available
+    return 0;
 }
 
 uint32_t getTime() {
@@ -187,7 +190,7 @@ void process_exit_sensor(void) {
     lcd_print(" in mall.");
 }
 
-void generate_access_code(char* buffer) {
+void get_random_code(char* buffer) {
     char tmp_code[CODE_LENGTH + 1] = {0};
     for (int i = 0; i < CODE_LENGTH; i++) {
         tmp_code[i] = rand() % 10;
@@ -201,7 +204,7 @@ void generate_temp_code(uint16_t tenant_id, uint32_t validity_period) {
     for (int i = 0; i < MAX_TEMP_CODES; i++) {
         if (!temp_codes[i].active) {
             // Generate random code
-            generate_access_code(temp_codes[i].code);
+            get_random_code(temp_codes[i].code);
             temp_codes[i].tenant_id = tenant_id;
             temp_codes[i].expiry_time = time(0) + validity_period;
             temp_codes[i].active = 1;
@@ -220,6 +223,7 @@ void escalator_control(uint8_t enable) {
         lcd_print("Escalator Off");
     }
 }
+
 void show_number_Of_tenants(){
     int tenant_count=0;
     for(int i =0;i<MAX_TENANTS;i++){
@@ -232,46 +236,19 @@ void show_number_Of_tenants(){
     lcd_display_number(tenant_count);
 }
 
-void generate_customer_access_code(uint16_t tenant_id, uint32_t validity_period) {
-    // Ensure the tenant_id is valid
-    if (tenant_id >= MAX_TENANTS || !tenants[tenant_id].active) {
-        lcd_clear();
-        lcd_print("Invalid Tenant ID");
-        _delay_ms(2000);
-        return;
-    }
-
-    // Find an available slot in the temporary codes array
-    for (int i = 0; i < MAX_TEMP_CODES; i++) {
-        if (!temp_codes[i].active) {
-            // Generate a random 6-digit code
-            char temp_code[CODE_LENGTH + 1] = {0};
-            for (int j = 0; j < CODE_LENGTH; j++) {
-                temp_code[j] = '0' + (rand() % 10);  // Generate digits 0-9
-            }
-            temp_code[CODE_LENGTH] = '\0';  // Null-terminate the string
-
-            // Store the generated code in the temp_codes array
-            strncpy(temp_codes[i].code, temp_code, CODE_LENGTH + 1);
-            temp_codes[i].tenant_id = tenant_id;
-            temp_codes[i].expiry_time = getTime() + validity_period;
-            temp_codes[i].active = 1;
-
-            // Display the code on the LCD for the tenant
-            lcd_clear();
-            lcd_print("Code for Cust:");
-            lcd_set_cursor(1, 0);  // Move to the next line
-            lcd_print(temp_code);
-            _delay_ms(4000);
-
-            return;
-        }
-    }
-
-    // No available slot for new temporary code
+void process_escalator_sensor(uint8_t direction) {
     lcd_clear();
-    lcd_print("No Slots Available");
-    _delay_ms(2000);
+    if (direction == 1) {
+        people_upstairs++;
+        // lcd_print("Escalator Up");
+    } else {
+        if (people_upstairs > 0) {
+            people_upstairs--;
+        }
+        // lcd_print("Escalator Down");
+    }
+    lcd_print("Upstairs: ");
+    lcd_display_number(people_upstairs);
 }
 
 
@@ -287,7 +264,40 @@ void handle_bluetooth_command(char command) {
         case 'a':
             add_tenant();
             break;
-
+        case 'g':
+            lcd_print("Tenant's ID:");
+            char c[3];
+            uint8_t typing = 0;
+            uint8_t index = 0;
+            while (1) {
+                char x = uart_receive();
+                if (typing == 0) {
+                    lcd_clear();
+                    typing = 1;
+                }
+                if (x == '\0'||x=='\n'||x=='\r') {
+                    break;
+                }
+                if (index < 2) { // Ensure we don't overflow the buffer
+                    c[index++] = x;
+                    // name[index] = '\0'; // Null-terminate the string
+                    lcd_send_data(x);
+                } else break;
+            }
+            int id_value = c - '0';
+            uint8_t found = 0;
+            for (int g = 0; g < MAX_TENANTS; g++) {
+                if (tenants[g].active && tenants[g].id == id_value) {
+                    generate_temp_code(tenants[g].id, 600);
+                    found = 1;
+                }
+            }
+            if (!found) {
+                lcd_clear();
+                lcd_print("No Tenant ID ");
+                lcd_display_number(id_value);
+            }
+            break;
         case 's':
             show_number_Of_tenants();
             break;
@@ -324,10 +334,36 @@ void update_washroom_status(void) {
 }
 
 void bluetooth_init() {
+    _delay_ms(100);
+    uart_send_string("AT\r\n");
+    _delay_ms(500);
+    uart_send_string("AT+NAME=TheEmporio\r\n");
+    _delay_ms(500);
+    uart_send_string("AT+PIN=0000\r\n");
+    _delay_ms(500);
+    uart_send_string("AT+BAUD4\r\n");
+    _delay_ms(500);
+    uart_send_string("AT+ROLE=0\r\n");
+    _delay_ms(500);
+    uart_send_string("AT+CMODE=1\r\n");
+    _delay_ms(500);
+    uart_send_string("AT+ADDR?\r\n");
 }
 
-void sensor_init() {
+// Function to initialize sensors for the escalator
+void sensor_init(void) {
+    // Configure ESCALATOR_ENTRY and ESCALATOR_EXIT as input with pull-up resistors
+    DDRD &= ~(1 << ESCALATOR_ENTRY);
+    DDRD &= ~(1 << ESCALATOR_EXIT);
+    PORTD |= (1 << ESCALATOR_ENTRY);
+    PORTD |= (1 << ESCALATOR_EXIT);
+
+    // Enable external interrupts for ESCALATOR_ENTRY and ESCALATOR_EXIT
+    EICRA |= (1 << ISC01) | (1 << ISC00); // Rising edge on INT0 (PD0)
+    EICRA |= (1 << ISC11) | (1 << ISC10); // Rising edge on INT1 (PD1)
+    EIMSK |= (1 << INT0) | (1 << INT1);   // Enable INT0 and INT1
 }
+
 /**
 * port must be a PIN reference (e.g. PINn)
 * port's data direction must be input (DDRn = 0) 
@@ -344,22 +380,21 @@ int poll(uint8_t pin, uint16_t port) {
 int main() {
     system_init();
     while (1) {
-        int ent1 = poll(PH2, PINH);
+        int ent1 = poll(MALL_ENTRANCE_1, PINH);
         if (ent1) {
             process_entrance_sensor(1);
-            while(poll(PH2, PINH));
+            while(poll(MALL_ENTRANCE_1, PINH));
         }
-        int ent2 = poll(PH3, PINH);
+        int ent2 = poll(MALL_ENTRANCE_2, PINH);
         if (ent2) {
             process_entrance_sensor(2);
-            while(poll(PH3, PINH));
+            while(poll(MALL_ENTRANCE_2, PINH));
         }
-        int exit1 = poll(PH4, PINH);
+        int exit1 = poll(MALL_EXIT, PINH);
         if (exit1) {
             process_exit_sensor();
-            while(poll(PH4, PINH));
+            while(poll(MALL_EXIT, PINH));
         }
-        
     }
     return 0;
 }
@@ -367,4 +402,20 @@ int main() {
 ISR(USART0_RX_vect) {
     char received = UDR0;
     handle_bluetooth_command(received);
+}
+
+ISR(INT0_vect) {
+    people_upstairs++;
+    lcd_clear();
+    lcd_print("Upstairs: ");
+    lcd_display_number(people_upstairs);
+}
+
+ISR(INT1_vect) {
+    if (people_upstairs > 0) {
+        people_upstairs--;
+    }
+    lcd_clear();
+    lcd_print("Upstairs: ");
+    lcd_display_number(people_upstairs);
 }

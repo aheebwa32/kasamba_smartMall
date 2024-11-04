@@ -1,29 +1,35 @@
 Archive member included to satisfy reference by file (symbol)
 
+/home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3.o)
+                              build/default/debug/main.o (__addsf3)
+/home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3.o) (__addsf3x)
 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(cmpsf2.o)
                               build/default/debug/main.o (__lesf2)
 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
                               build/default/debug/main.o (__fixunssfsi)
+/home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(floatsisf.o)
+                              build/default/debug/main.o (__floatunsisf)
 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_cmp.o)
                               /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(cmpsf2.o) (__fp_cmp)
+/home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_inf.o)
+                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_inf)
+/home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_nan.o)
+                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_nan)
+/home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_pscA.o)
+                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_pscA)
+/home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_pscB.o)
+                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_pscB)
+/home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_round.o)
+                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3.o) (__fp_round)
 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_split3.o)
-                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fixunssfsi.o) (__fp_splitA)
+                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_split3)
 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_zero.o)
-                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fixunssfsi.o) (__fp_zero)
+                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3x.o) (__fp_zero)
 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3.o)
                               build/default/debug/main.o (__mulsf3)
 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
                               /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3.o) (__mulsf3x)
-/home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_inf.o)
-                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o) (__fp_inf)
-/home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_nan.o)
-                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o) (__fp_nan)
-/home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_pscA.o)
-                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o) (__fp_pscA)
-/home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_pscB.o)
-                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o) (__fp_pscB)
-/home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_round.o)
-                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3.o) (__fp_round)
 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/avr6/libgcc.a(_divmodhi4.o)
                               build/default/debug/main.o (__divmodhi4)
 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/avr6/libgcc.a(_exit.o)
@@ -40,8 +46,14 @@ Archive member included to satisfy reference by file (symbol)
                               build/default/debug/main.o (strcmp)
 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(strncpy.o)
                               build/default/debug/main.o (strncpy)
+/home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(itoa_ncheck.o)
+                              build/default/debug/main.o (__itoa_ncheck)
+/home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(utoa_ncheck.o)
+                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(itoa_ncheck.o) (__utoa_common)
 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(time.o)
                               build/default/debug/main.o (time)
+/home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(strrev.o)
+                              /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(utoa_ncheck.o) (strrev)
 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(system_time.o)
                               /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(time.o) (__system_time)
 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/avr6/libgcc.a(_divmodsi4.o)
@@ -69,28 +81,40 @@ Discarded input sections
  .text          0x0000000000000000        0x0 build/default/debug/main.o
  .data          0x0000000000000000        0x0 build/default/debug/main.o
  .bss           0x0000000000000000        0x0 build/default/debug/main.o
- .text.uart_receive
+ .text.uart_transmit
                 0x0000000000000000       0x10 build/default/debug/main.o
- .text.add_tenant
-                0x0000000000000000       0x6c build/default/debug/main.o
+ .text.uart_send_string
+                0x0000000000000000       0x1e build/default/debug/main.o
  .text.getTime  0x0000000000000000        0xa build/default/debug/main.o
  .text.verify_access_code
-                0x0000000000000000       0xbe build/default/debug/main.o
+                0x0000000000000000       0xd6 build/default/debug/main.o
  .text.generate_access_code
                 0x0000000000000000       0x8a build/default/debug/main.o
  .text.generate_temp_code
                 0x0000000000000000       0xa8 build/default/debug/main.o
+ .rodata.generate_customer_access_code.str1.1
+                0x0000000000000000       0x34 build/default/debug/main.o
+ .text.generate_customer_access_code
+                0x0000000000000000      0x1a2 build/default/debug/main.o
  .text.update_washroom_status
                 0x0000000000000000        0x2 build/default/debug/main.o
  .text.bluetooth_init
                 0x0000000000000000        0x2 build/default/debug/main.o
  .text.sensor_init
                 0x0000000000000000        0x2 build/default/debug/main.o
+ .text.poll     0x0000000000000000       0x20 build/default/debug/main.o
+ .bss.people_upstairs
+                0x0000000000000000        0x2 build/default/debug/main.o
  .bss.washrooms
                 0x0000000000000000       0x24 build/default/debug/main.o
  .bss.temp_codes
                 0x0000000000000000      0x118 build/default/debug/main.o
- .bss.tenants   0x0000000000000000      0x438 build/default/debug/main.o
+ .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3.o)
+ .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3.o)
+ .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3.o)
+ .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+ .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+ .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3x.o)
  .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(cmpsf2.o)
  .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(cmpsf2.o)
  .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(cmpsf2.o)
@@ -99,23 +123,14 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
  .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
  .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+ .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(floatsisf.o)
+ .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(floatsisf.o)
+ .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(floatsisf.o)
  .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_cmp.o)
  .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_cmp.o)
  .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_cmp.o)
  .text.avr-libc.fplib
                 0x0000000000000000       0x48 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_cmp.o)
- .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_split3.o)
- .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_split3.o)
- .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_split3.o)
- .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_zero.o)
- .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_zero.o)
- .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_zero.o)
- .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3.o)
- .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3.o)
- .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3.o)
- .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
- .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
- .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
  .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_inf.o)
  .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_inf.o)
  .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_inf.o)
@@ -131,6 +146,18 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_round.o)
  .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_round.o)
  .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_round.o)
+ .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_split3.o)
+ .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_split3.o)
+ .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_split3.o)
+ .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_zero.o)
+ .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_zero.o)
+ .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_zero.o)
+ .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+ .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+ .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+ .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+ .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+ .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
  .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/avr6/libgcc.a(_divmodhi4.o)
  .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/avr6/libgcc.a(_divmodhi4.o)
  .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/avr6/libgcc.a(_divmodhi4.o)
@@ -225,13 +252,24 @@ Discarded input sections
  .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(strncpy.o)
  .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(strncpy.o)
  .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(strncpy.o)
- .text.avr-libc
-                0x0000000000000000       0x1e /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(strncpy.o)
+ .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(itoa_ncheck.o)
+ .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(itoa_ncheck.o)
+ .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(itoa_ncheck.o)
+ .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(utoa_ncheck.o)
+ .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(utoa_ncheck.o)
+ .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(utoa_ncheck.o)
+ .text          0x0000000000000000       0x26 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(time.o)
  .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(time.o)
  .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(time.o)
+ .comment       0x0000000000000000       0x2d /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(time.o)
+ .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(strrev.o)
+ .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(strrev.o)
+ .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(strrev.o)
  .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(system_time.o)
  .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(system_time.o)
  .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(system_time.o)
+ .comment       0x0000000000000000       0x2d /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(system_time.o)
+ COMMON         0x0000000000000000        0x4 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(system_time.o)
  .text          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/avr6/libgcc.a(_divmodsi4.o)
  .data          0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/avr6/libgcc.a(_divmodsi4.o)
  .bss           0x0000000000000000        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/avr6/libgcc.a(_divmodsi4.o)
@@ -459,7 +497,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x0000000000000000      0x658
+.text           0x0000000000000000      0xbda
  *(.vectors)
  .vectors       0x0000000000000000       0xe4 /Home/microchip/mplabx/v6.20/packs/Microchip/ATmega_DFP/3.1.264/gcc/dev/atmega2560/avr6/crtatmega2560.o
                 0x0000000000000000                __vectors
@@ -521,6 +559,7 @@ END GROUP
                 0x0000000000000126                __vector_38
                 0x0000000000000126                __vector_22
                 0x0000000000000126                __vector_28
+                0x0000000000000126                __vector_1
                 0x0000000000000126                __vector_32
                 0x0000000000000126                __vector_34
                 0x0000000000000126                __vector_24
@@ -532,6 +571,7 @@ END GROUP
                 0x0000000000000126                __vector_31
                 0x0000000000000126                __vector_35
                 0x0000000000000126                __vector_39
+                0x0000000000000126                __vector_3
                 0x0000000000000126                __vector_23
                 0x0000000000000126                __vector_30
                 0x0000000000000126                __vector_45
@@ -555,6 +595,7 @@ END GROUP
                 0x0000000000000126                __vector_44
                 0x0000000000000126                __vector_51
                 0x0000000000000126                __vector_9
+                0x0000000000000126                __vector_2
                 0x0000000000000126                __vector_21
                 0x0000000000000126                __vector_15
                 0x0000000000000126                __vector_36
@@ -571,86 +612,122 @@ END GROUP
                 0x0000000000000126                __vector_18
                 0x0000000000000126                __vector_20
                 0x0000000000000126                __vector_42
- .text          0x000000000000012a       0x26 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(time.o)
-                0x000000000000012a                time
-                0x0000000000000150                . = ALIGN (0x2)
+                0x000000000000012a                . = ALIGN (0x2)
  *(.text.*)
  .text.uart_init
-                0x0000000000000150       0x18 build/default/debug/main.o
-                0x0000000000000150                uart_init
- .text.uart_transmit
-                0x0000000000000168       0x2e build/default/debug/main.o
-                0x0000000000000168                uart_transmit
- .text.uart_send_string
-                0x0000000000000196       0x1e build/default/debug/main.o
-                0x0000000000000196                uart_send_string
+                0x000000000000012a       0x18 build/default/debug/main.o
+                0x000000000000012a                uart_init
+ .text.uart_receive
+                0x0000000000000142       0x10 build/default/debug/main.o
+                0x0000000000000142                uart_receive
+ .text.stall    0x0000000000000152       0x2a build/default/debug/main.o
+                0x0000000000000152                stall
+ .text.lcd_send_command
+                0x000000000000017c       0x1a build/default/debug/main.o
+                0x000000000000017c                lcd_send_command
+ .text.lcd_send_data
+                0x0000000000000196       0x1a build/default/debug/main.o
+                0x0000000000000196                lcd_send_data
+ .text.lcd_clear
+                0x00000000000001b0        0x8 build/default/debug/main.o
+                0x00000000000001b0                lcd_clear
+ .text.lcd_print
+                0x00000000000001b8       0x1e build/default/debug/main.o
+                0x00000000000001b8                lcd_print
+ .text.lcd_init
+                0x00000000000001d6       0x42 build/default/debug/main.o
+                0x00000000000001d6                lcd_init
+ .text.lcd_display_number
+                0x0000000000000218       0x54 build/default/debug/main.o
+                0x0000000000000218                lcd_display_number
  .text.system_init
-                0x00000000000001b4       0xe6 build/default/debug/main.o
-                0x00000000000001b4                system_init
+                0x000000000000026c       0xfa build/default/debug/main.o
+                0x000000000000026c                system_init
+ .text.add_tenant
+                0x0000000000000366      0x28a build/default/debug/main.o
+                0x0000000000000366                add_tenant
  .text.process_entrance_sensor
-                0x000000000000029a       0x2e build/default/debug/main.o
-                0x000000000000029a                process_entrance_sensor
- .text.__vector_1
-                0x00000000000002c8       0x52 build/default/debug/main.o
-                0x00000000000002c8                __vector_1
- .text.__vector_2
-                0x000000000000031a       0x52 build/default/debug/main.o
-                0x000000000000031a                __vector_2
+                0x00000000000005f0       0x44 build/default/debug/main.o
+                0x00000000000005f0                process_entrance_sensor
  .text.process_exit_sensor
-                0x000000000000036c       0x22 build/default/debug/main.o
-                0x000000000000036c                process_exit_sensor
- .text.__vector_3
-                0x000000000000038e       0x50 build/default/debug/main.o
-                0x000000000000038e                __vector_3
+                0x0000000000000634       0x3a build/default/debug/main.o
+                0x0000000000000634                process_exit_sensor
  .text.escalator_control
-                0x00000000000003de       0x2a build/default/debug/main.o
-                0x00000000000003de                escalator_control
+                0x000000000000066e       0x1c build/default/debug/main.o
+                0x000000000000066e                escalator_control
+ .text.show_number_Of_tenants
+                0x000000000000068a       0x3c build/default/debug/main.o
+                0x000000000000068a                show_number_Of_tenants
  .text.handle_bluetooth_command
-                0x0000000000000408       0x18 build/default/debug/main.o
-                0x0000000000000408                handle_bluetooth_command
- .text.main     0x0000000000000420        0x6 build/default/debug/main.o
-                0x0000000000000420                main
+                0x00000000000006c6       0xc2 build/default/debug/main.o
+                0x00000000000006c6                handle_bluetooth_command
+ .text.main     0x0000000000000788       0x44 build/default/debug/main.o
+                0x0000000000000788                main
  .text.__vector_25
-                0x0000000000000426       0x54 build/default/debug/main.o
-                0x0000000000000426                __vector_25
+                0x00000000000007cc       0x54 build/default/debug/main.o
+                0x00000000000007cc                __vector_25
  .text.avr-libc.fplib
-                0x000000000000047a       0x5e /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
-                0x000000000000047a                __fixunssfsi
+                0x0000000000000820        0xe /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3.o)
+                0x0000000000000820                __subsf3
+                0x0000000000000822                __addsf3
  .text.avr-libc.fplib
-                0x00000000000004d8       0x44 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_split3.o)
-                0x00000000000004d8                __fp_split3
-                0x00000000000004e8                __fp_splitA
+                0x000000000000082e       0xcc /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(addsf3x.o)
+                0x0000000000000850                __addsf3x
  .text.avr-libc.fplib
-                0x000000000000051c        0xe /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_zero.o)
-                0x000000000000051c                __fp_zero
-                0x000000000000051e                __fp_szero
+                0x00000000000008fa       0x5e /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fixunssfsi.o)
+                0x00000000000008fa                __fixunssfsi
  .text.avr-libc.fplib
-                0x000000000000052a        0x8 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3.o)
-                0x000000000000052a                __mulsf3
+                0x0000000000000958       0x7a /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(floatsisf.o)
+                0x0000000000000958                __floatunsisf
+                0x000000000000095c                __floatsisf
  .text.avr-libc.fplib
-                0x0000000000000532       0xd2 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
-                0x0000000000000550                __mulsf3x
-                0x0000000000000556                __mulsf3_pse
+                0x00000000000009d2        0xc /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_inf.o)
+                0x00000000000009d2                __fp_inf
  .text.avr-libc.fplib
-                0x0000000000000604        0xc /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_inf.o)
-                0x0000000000000604                __fp_inf
+                0x00000000000009de        0x6 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_nan.o)
+                0x00000000000009de                __fp_nan
  .text.avr-libc.fplib
-                0x0000000000000610        0x6 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_nan.o)
-                0x0000000000000610                __fp_nan
+                0x00000000000009e4        0xe /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_pscA.o)
+                0x00000000000009e4                __fp_pscA
  .text.avr-libc.fplib
-                0x0000000000000616        0xe /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_pscA.o)
-                0x0000000000000616                __fp_pscA
+                0x00000000000009f2        0xe /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_pscB.o)
+                0x00000000000009f2                __fp_pscB
  .text.avr-libc.fplib
-                0x0000000000000624        0xe /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_pscB.o)
-                0x0000000000000624                __fp_pscB
+                0x0000000000000a00       0x22 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_round.o)
+                0x0000000000000a00                __fp_round
  .text.avr-libc.fplib
-                0x0000000000000632       0x22 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_round.o)
-                0x0000000000000632                __fp_round
-                0x0000000000000654                . = ALIGN (0x2)
+                0x0000000000000a22       0x44 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_split3.o)
+                0x0000000000000a22                __fp_split3
+                0x0000000000000a32                __fp_splitA
+ .text.avr-libc.fplib
+                0x0000000000000a66        0xe /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(fp_zero.o)
+                0x0000000000000a66                __fp_zero
+                0x0000000000000a68                __fp_szero
+ .text.avr-libc.fplib
+                0x0000000000000a74        0x8 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3.o)
+                0x0000000000000a74                __mulsf3
+ .text.avr-libc.fplib
+                0x0000000000000a7c       0xd2 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libm.a(mulsf3x.o)
+                0x0000000000000a9a                __mulsf3x
+                0x0000000000000aa0                __mulsf3_pse
+ .text.avr-libc
+                0x0000000000000b4e       0x1e /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(strncpy.o)
+                0x0000000000000b4e                strncpy
+ .text.avr-libc
+                0x0000000000000b6c       0x16 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(itoa_ncheck.o)
+                0x0000000000000b6c                __itoa_ncheck
+ .text.avr-libc
+                0x0000000000000b82       0x34 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(utoa_ncheck.o)
+                0x0000000000000b82                __utoa_ncheck
+                0x0000000000000b84                __utoa_common
+ .text.avr-libc
+                0x0000000000000bb6       0x20 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(strrev.o)
+                0x0000000000000bb6                strrev
+                0x0000000000000bd6                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x0000000000000654        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/avr6/libgcc.a(_exit.o)
-                0x0000000000000654                exit
-                0x0000000000000654                _exit
+ .fini9         0x0000000000000bd6        0x0 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/avr6/libgcc.a(_exit.o)
+                0x0000000000000bd6                exit
+                0x0000000000000bd6                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -669,11 +746,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x0000000000000654        0x4 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/avr6/libgcc.a(_exit.o)
+ .fini0         0x0000000000000bd6        0x4 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/avr6/libgcc.a(_exit.o)
  *(.fini0)
-                0x0000000000000658                _etext = .
+                0x0000000000000bda                _etext = .
 
-.data           0x0000000000800200       0x12 load address 0x0000000000000658
+.data           0x0000000000800200       0xd6 load address 0x0000000000000bda
                 0x0000000000800200                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
@@ -682,44 +759,57 @@ END GROUP
                 0x0000000000800200                base_rent
  *(.gnu.linkonce.d*)
  *(.rodata)
- .rodata        0x0000000000800204        0xd build/default/debug/main.o
  *(.rodata*)
+ .rodata.lcd_init.str1.1
+                0x0000000000800204        0xd build/default/debug/main.o
+ .rodata.add_tenant.str1.1
+                0x0000000000800211       0x63 build/default/debug/main.o
+ .rodata.process_entrance_sensor.str1.1
+                0x0000000000800274        0xa build/default/debug/main.o
+ .rodata.escalator_control.str1.1
+                0x000000000080027e       0x1b build/default/debug/main.o
+ .rodata.show_number_Of_tenants.str1.1
+                0x0000000000800299        0xa build/default/debug/main.o
+ .rodata.handle_bluetooth_command.str1.1
+                0x00000000008002a3       0x33 build/default/debug/main.o
  *(.gnu.linkonce.r*)
-                0x0000000000800212                . = ALIGN (0x2)
- *fill*         0x0000000000800211        0x1 
-                0x0000000000800212                _edata = .
-                0x0000000000800212                PROVIDE (__data_end, .)
+                0x00000000008002d6                . = ALIGN (0x2)
+                0x00000000008002d6                _edata = .
+                0x00000000008002d6                PROVIDE (__data_end, .)
 
-.bss            0x0000000000800212       0x15
-                0x0000000000800212                PROVIDE (__bss_start, .)
+.bss            0x00000000008002d6      0x44b
+                0x00000000008002d6                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
+ .bss.last_tenant_id
+                0x00000000008002d6        0x2 build/default/debug/main.o
+                0x00000000008002d6                last_tenant_id
  .bss.exit_count
-                0x0000000000800212        0x1 build/default/debug/main.o
-                0x0000000000800212                exit_count
+                0x00000000008002d8        0x1 build/default/debug/main.o
+                0x00000000008002d8                exit_count
  .bss.entrance_2_count
-                0x0000000000800213        0x1 build/default/debug/main.o
-                0x0000000000800213                entrance_2_count
+                0x00000000008002d9        0x1 build/default/debug/main.o
+                0x00000000008002d9                entrance_2_count
  .bss.entrance_1_count
-                0x0000000000800214        0x1 build/default/debug/main.o
-                0x0000000000800214                entrance_1_count
+                0x00000000008002da        0x1 build/default/debug/main.o
+                0x00000000008002da                entrance_1_count
  .bss.people_count
-                0x0000000000800215        0x2 build/default/debug/main.o
-                0x0000000000800215                people_count
- .bss.floors    0x0000000000800217        0xc build/default/debug/main.o
-                0x0000000000800217                floors
+                0x00000000008002db        0x2 build/default/debug/main.o
+                0x00000000008002db                people_count
+ .bss.floors    0x00000000008002dd        0xc build/default/debug/main.o
+                0x00000000008002dd                floors
+ .bss.tenants   0x00000000008002e9      0x438 build/default/debug/main.o
+                0x00000000008002e9                tenants
  *(COMMON)
- COMMON         0x0000000000800223        0x4 /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(system_time.o)
-                0x0000000000800223                __system_time
-                0x0000000000800227                PROVIDE (__bss_end, .)
-                0x0000000000000658                __data_load_start = LOADADDR (.data)
-                0x000000000000066a                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x0000000000800721                PROVIDE (__bss_end, .)
+                0x0000000000000bda                __data_load_start = LOADADDR (.data)
+                0x0000000000000cb0                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x0000000000800227        0x0
+.noinit         0x0000000000800721        0x0
                 [!provide]                        PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                        PROVIDE (__noinit_end, .)
-                0x0000000000800227                _end = .
+                0x0000000000800721                _end = .
                 [!provide]                        PROVIDE (__heap_start, .)
 
 .eeprom         0x0000000000810000        0x0
@@ -759,13 +849,10 @@ END GROUP
 .stab.indexstr
  *(.stab.indexstr)
 
-.comment        0x0000000000000000       0x5c
+.comment        0x0000000000000000       0x30
  *(.comment)
  .comment       0x0000000000000000       0x30 build/default/debug/main.o
                                          0x31 (size before relaxing)
- .comment       0x0000000000000030       0x2c /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(time.o)
-                                         0x2d (size before relaxing)
- .comment       0x000000000000005c       0x2d /home/aheebwa/Documents/AVR Utils/toolchain/bin/../lib/gcc/avr/7.3.0/../../../../avr/lib/avr6/libc.a(system_time.o)
 
 .note.gnu.avr.deviceinfo
                 0x0000000000000000       0x40
@@ -787,42 +874,42 @@ END GROUP
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x0000000000000000       0xc8
+.debug_aranges  0x0000000000000000      0x100
  *(.debug_aranges)
  .debug_aranges
-                0x0000000000000000       0xc8 build/default/debug/main.o
+                0x0000000000000000      0x100 build/default/debug/main.o
 
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x0000000000000000     0x1678
+.debug_info     0x0000000000000000     0x209b
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x0000000000000000      0xbbc /Home/microchip/mplabx/v6.20/packs/Microchip/ATmega_DFP/3.1.264/gcc/dev/atmega2560/avr6/crtatmega2560.o
- .debug_info    0x0000000000000bbc      0xabc build/default/debug/main.o
+ .debug_info    0x0000000000000bbc     0x14df build/default/debug/main.o
 
-.debug_abbrev   0x0000000000000000      0xe4d
+.debug_abbrev   0x0000000000000000      0xfa5
  *(.debug_abbrev)
  .debug_abbrev  0x0000000000000000      0xb1a /Home/microchip/mplabx/v6.20/packs/Microchip/ATmega_DFP/3.1.264/gcc/dev/atmega2560/avr6/crtatmega2560.o
- .debug_abbrev  0x0000000000000b1a      0x333 build/default/debug/main.o
+ .debug_abbrev  0x0000000000000b1a      0x48b build/default/debug/main.o
 
-.debug_line     0x0000000000000000      0x7dd
+.debug_line     0x0000000000000000      0xc8b
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x0000000000000000      0x1fa /Home/microchip/mplabx/v6.20/packs/Microchip/ATmega_DFP/3.1.264/gcc/dev/atmega2560/avr6/crtatmega2560.o
- .debug_line    0x00000000000001fa      0x5e3 build/default/debug/main.o
+ .debug_line    0x00000000000001fa      0xa91 build/default/debug/main.o
 
-.debug_frame    0x0000000000000000      0x380
+.debug_frame    0x0000000000000000      0x410
  *(.debug_frame)
- .debug_frame   0x0000000000000000      0x380 build/default/debug/main.o
+ .debug_frame   0x0000000000000000      0x410 build/default/debug/main.o
 
-.debug_str      0x0000000000000000      0x898
+.debug_str      0x0000000000000000      0x96e
  *(.debug_str)
  .debug_str     0x0000000000000000      0x3e6 /Home/microchip/mplabx/v6.20/packs/Microchip/ATmega_DFP/3.1.264/gcc/dev/atmega2560/avr6/crtatmega2560.o
- .debug_str     0x00000000000003e6      0x4b2 build/default/debug/main.o
-                                        0x507 (size before relaxing)
+ .debug_str     0x00000000000003e6      0x588 build/default/debug/main.o
+                                        0x605 (size before relaxing)
 
-.debug_loc      0x0000000000000000      0xac7
+.debug_loc      0x0000000000000000     0x11fc
  *(.debug_loc)
- .debug_loc     0x0000000000000000      0xac7 build/default/debug/main.o
+ .debug_loc     0x0000000000000000     0x11fc build/default/debug/main.o
 
 .debug_macinfo
  *(.debug_macinfo)
@@ -842,9 +929,9 @@ END GROUP
 .debug_pubtypes
  *(.debug_pubtypes)
 
-.debug_ranges   0x0000000000000000      0x110
+.debug_ranges   0x0000000000000000      0x198
  *(.debug_ranges)
- .debug_ranges  0x0000000000000000      0x110 build/default/debug/main.o
+ .debug_ranges  0x0000000000000000      0x198 build/default/debug/main.o
 
 .debug_macro
  *(.debug_macro)
