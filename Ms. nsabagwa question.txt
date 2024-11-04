@@ -1,0 +1,34 @@
+Kasamba Mall Smart system
+The Kasamba Mall proprietor wishes to transform his mall into a smart and secure mall by using IoT technologies. 
+He hopes that this will improve the experience of the tenants, management and customers.  
+
+The mall has 2 entrances, 1 exit and 3 floors. 
+The entrance cannot allow people exiting the building and vice versa. 
+Only one person can pass the entrance or exit at a time. 
+For each of the entrances, a sensor is installed to count how many people access the building. 
+
+For one to access the upper floors, they use an escalator, which detects, counts them and moves them up. 
+An escalator takes people in one direction. 
+
+The mall has washrooms which are managed by management. 
+A tenant is given washroom access by management by setting a passcode. 
+One with a passcode uses it to open the washrooms. 
+In case a tenant has a client, who wishes to use the washroom, they can assign them a temporary access and sets the timeout period. 
+After the expiry of the access code, the client is informed and does not access the washroom with the same code. 
+If a washroom is occupied, a message is displayed and no access is granted even to someone with an access code. 
+
+Tenants pay rent as per the settings configured by the landlord/management (For creativity, think and propose the necessary configurations). 
+Management uses a serial communication console to add these and other necessary configurations. 
+Tenants whose rent is due cannot access the washroom. Neither do their customers. 
+
+Management registers costs per unit in the system following the following criteria.
+    1.  The base fee for a ground floor apartment
+    2. The second-floor apartment rent is three quarters that of the second-floor apartment 
+    3. The third-floor apartment rent is equivalent to ¾ of the 2nd floor apartment 
+Tenants also pay their dues and this is updated. Decide how this is done.
+
+Management also has a smart phone application for controlling some aspects of the system. 
+These include among others control of the escalator (such that its disabled so that people use the stairs), disabling accounts etc. 
+Think of 5 others. This control is done using Bluetooth.   
+Assignment and instructions:
+    1. Simulate the above application in proteus 
